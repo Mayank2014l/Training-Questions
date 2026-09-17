@@ -1,1 +1,151 @@
-1. if we want to enter 10 element in list so we cant add the 11 element.
+
+DAY - 01
+
+Que. What is python?
+Ans. Python is high level programming language means human understandable language
+
+- Python is interpreted means line by line code executes
+- Python is platform independent means we can run any platform
+- Python is an object oriented programming language means it uses object and classes that was developed by guido van rossum in 28 Feb 1989 and first release was 1991 at National research institute Netherlands
+- Python name comes from British comedy series montly flying python circus
+
+Ans. Python is scripting programming language means their no need for compiler bcz python is interpreted
+
+- Python is dynamic type programming language means there is no need define any data
+
+HW. Why python
+         How used python
+         Where used python        ML ------------ DL
+Code HW.
+Reverse number using while loop
+Armstrong number
+Prime number
+Palindrome number
+
+Code:
+Swap numbers
+Grade 4 subject marks avg
+I in range 1,22 print even number
+Fibonacci series
+
+DAY - 02
+
+Datatype
+Data type is a classification that tells the computer what type of data a variable can store and what operations can be performed on it.
+int,float,char,str,boolean,list,tuple,dictionary,set,complex,none,byte,byte array ,range
+
+* there are some mutable and immutable datatypes
+* List: Mutable datatype which is used to create dynamic array
+        are homogenous
+        are used to store index basis
+        duplicate allowed
+        None values are allowed
+        and used to declare []
+
+* There are many ways to create a list
+t1 = []
+print(t1)
+print(type(t1))
+
+Slicing:- a piece
+
+a b c d e f g h i j k  l  m
+0 1 2 3 4 5 6 7 8 9 10 11 12
+
+Syntax: [start:end:steps]
+* Start optional but by default value 0
+* end optional but by default value end -1 or length of list 
+*step optional by fault value 1
+
+DAY - 03
+
+Tuple
+Tuple are immutable means can't be changed or modified
+* are used to store heterogeneous
+* are used to store duplicate values
+* are used to declare paranthesis
+* insertion order are preserved
+
+Set
+set are mutable are used to store unique element
+* set are unordered
+* are used to declare { }
+* slicing are possible
+* indexing not accessible
+
+Dictionary
+Dictionary are used to store key-values pair where key are unique and values may be duplicate
+* dictionary are mutable
+* insertion order preserved
+* slicing are not possible
+
+Error and Exception
+Compile and Runtime
+
+DAY - 04
+
+In python, Each and Every are objects
+Q. What is object:-
+A. Object is real world Entity which consist state and behaviour
+   Ex- pen is an object
+       1 pen = name , color , desgin 
+       1 pen = xxxxxxxxxxxxxxxxx
+       behaviour represents writing
+   Object is an Instance of class means
+   * Object is a Memory Location which is used to store data and data Temporary
+   * Object contains properties(variables) and behaviour(function/method)
+   Ex- roll,name,branch ------- Properties (variable)
+       behaviour represent functionality of an object
+       dance() walk() is function ------ def dance() method in python
+
+Q. What is class:-
+A. Class is Blueprint/template 
+   Class is a logical thing or blueprint but not physically exist
+   
+   class test:
+        logic implement   nlogn() 0(n)
+
+    Flower
+    rose,lotus is an object of class Flower
+
+    Furniture
+    chair,table is an object of class Furniture
+
+    * Class is a collection of Objects
+
+Q. How to create class:-
+A. class Test:
+        def__init__(self):             __init__ is special method 
+            print("hello")             __init__(self) :- constructor
+                            
+    t = Test()                         t = reference variable
+                                       test() is default constructor
+
+                                       self is also reference variable reference of object
+
+Q. What is variable:-
+A. Variable is a Memory Location which is used to store data
+   There are three types of variable:-
+   1. Instance variable (object Level)
+   2. Static Variable  (class level variable)
+   3. Class Level Variable
+
+Q. What is Method:-
+A. Method is used to write buisness logic(own logical)
+   There are Three types:-
+   1. Instance Method
+   2. Static Method
+   3. Class Method
+
+* Instance Variable is a variable which are declared inside constructor , method and also outside of a class
+* with the help of reference variable we can access instance variable
+
+Q. Instance Method:-
+A. Instance Method is a method can access instance variable static variable and class level variable
+
+Q. Constructor:-
+A. Constructor is used to initialization of an object and Constructor can executes automatically at the time of object creation
+   There are two types:-
+   1. Default Constructor
+   2. Parameterized Constructor
+   Note:- We can declared only oneconstructor inside a class
