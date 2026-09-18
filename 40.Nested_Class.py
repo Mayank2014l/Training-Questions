@@ -14,6 +14,6 @@ class Student:
 s = Student("rahul","java")
 a = Student.Address("noida","up")
 a.show()
-print("Name is "s.name)
-print("Course is "s.course)
+print("Name is ",s.name)
+print("Course is ",s.course)
             

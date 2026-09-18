@@ -149,3 +149,39 @@ A. Constructor is used to initialization of an object and Constructor can execut
    1. Default Constructor
    2. Parameterized Constructor
    Note:- We can declared only oneconstructor inside a class
+
+DAY - 05
+
+* when used instance , classmethod , staticmethod
+* self can get object information
+* cls can get class information
+* staticmethod can get only logic and calculation
+
+* we can declared static/class level variable inside class and constructor but by using class name
+
+Q. Diff b/w instance vs static/class vs local variable
+A. 
+
+Q. inheritance:-
+A. The process of acquiring properties and behaviour from oneto another class is known as inheritance.
+There are five types of inheritance
+1. Single level inheritance:- when a class inherites the properties of another is known as SLI.
+2. Multi level inheritance:- when a class inherites the the properties of another but these class already inherited another class.
+3. Multiple Inheritance:- when a class inherits more thannn one class.
+4. Hierarchial Inheritance:- when a class iherited by more than one class.
+5. Hybrid Inheritance:- It is a combination of heirarchial and multiple inheritance.
+
+Q. Polymorphism:-
+A. Polymorphism is a greek word poly means many and morphism form when a action performed multiple operation in Different ways is known as Polymorphism.
+There are two types
+1. overloading
+2. overriding
+------> overloaded are three types
+a. operator overloading:- same operator but different operation.
+ex:- 10+20=30
+"100"+"200"="100200"
+3*# = 9    "ram"*3 = ramramram
+b. method overloading:- python can't support
+c. constructor overloading:- python can't support
+
+2. Method overriding:- when parents class and child class having same method name but different logic is knowl as method overriding.
