@@ -185,3 +185,34 @@ b. method overloading:- python can't support
 c. constructor overloading:- python can't support
 
 2. Method overriding:- when parents class and child class having same method name but different logic is knowl as method overriding.
+
+DAY - 06
+
+Abstraction:- Hiding the complexity and giving the function is known as Abstraction
+EX:- atm Machine,Laptop,bike start etc........
+There are two to achieve the concept of Abstraction
+1. abstract class
+2. Interface:- python can't suppport
+
+Abstract Class:- 
+* a class is derived from ABC class which belongs to abc module is known as abstract class
+* we can't create object of abstract class
+* with the help of inheritance we can implement abstract class 
+* it contains may or not abstract method
+* abstract method is a method which can't have any body 
+* we can declared constructor of abstract class
+* an abstract can extend another abstract class 
+* we can't create object of abstract class 
+
+**************************************************************
+PYTHON 
+OOPS DJANGO REACT JS
+object,class,constructor ------ abstract class - exception 
+const[count,setCount]=useState=0
+Datatype,dictionary,sets
+***************************************************************
+
+Error:- can't Handle   compile Time 
+Exception Handling:- Handle   Runtime
+
+Real life Examples:- ATM Machine 
