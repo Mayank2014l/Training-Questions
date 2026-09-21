@@ -216,3 +216,23 @@ Error:- can't Handle   compile Time
 Exception Handling:- Handle   Runtime
 
 Real life Examples:- ATM Machine 
+
+*********************************************************
+Development --coding :- manual coding ---copy&paste
+100 line code
+81 lines code :- we can get output
+82 lines user mistake
+92 -----------
+96 -----------
+code running mode 
+*********************************************************
+
+Exception Handling:- It is an abnormal condition which occurs at run time.
+There are Three keywords to Handle the exception
+1.try 2.catch 3.finally (optional)
+try:
+   //risky code (manual-copy&paste)
+except:
+   handling code 
+finally:
+   optional
