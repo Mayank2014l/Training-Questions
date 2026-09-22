@@ -236,3 +236,18 @@ except:
    handling code 
 finally:
    optional
+
+DAY - 07
+
+NUMPY
+Numpy is used for mathematical calculation for ML, DL and AI 
+Q. Why Numpy?
+A. easy complex problem
+   efficient code
+   are used to store n-dimensional 
+   perform indexed operation
+   is used EDA(Ecplotary Data Analytics) for ML,DL and AI
+   machine ko train krne ke liye kuch operation use hote hai usko ham EDA khete hai 
+
+ndim
+ndim ka matlab hota hai Number of Dimensions — yani array ke andar kitne dimensions hain
