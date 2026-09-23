@@ -251,3 +251,33 @@ A. easy complex problem
 
 ndim
 ndim ka matlab hota hai Number of Dimensions — yani array ke andar kitne dimensions hain
+
+Q. with the help of list and numpy 
+
+DAY - 08
+
+1  2  3  4  5  6  8th intrv
+mean ----average
+median ----mid value
+(3+4)/2 ----median
+mode ----most repeating value
+
+Q. why mean and median used in ml?
+A. In Machine Learning, Mean and Median are used for understanding, preprocessing, and cleaning data.
+   They are important parts of Exploratory Data Analysis (EDA) and Data Preprocessing.
+
+**** mean and median are used to fill blank value in ML
+     axis = 0 , axis = 1 is used to calculate vertically and horizontally
+     and axis = 1 is mostly used in ML for drop dependent variable/target variable for ML training purpose
+
+
+PANDAS
+
+panda is used for perform operation on dataset
+There are two types:
+1. Series (1-D)
+2. DataFrame(2-D)
+
+ML--AI---------Excel Data
+real time problem solve as well as excel operation
+performed so Pandas is very important 
