@@ -280,4 +280,21 @@ There are two types:
 
 ML--AI---------Excel Data
 real time problem solve as well as excel operation
+<<<<<<< HEAD
 performed so Pandas is very important 
+=======
+performed so Pandas is very important 
+
+**********
+LOC and iLOC
+LOC working with rows/label/name 
+iLOC working with index basis
+LOC function mostly used in ML for convert categorical data into numerical data
+--> iLOC function mostly used in ML for accessing or dropping target table
+
+Q. ML/DL/AI/LLM/Generative AI/  which concept are important 
+A. Data extraction ----------- meaningful ---------- DA 
+   Data collection ----------- used right algorithm
+   lot algorithm ------------ 1 role
+   without data all part are just like field of study
+>>>>>>> daily-coding
