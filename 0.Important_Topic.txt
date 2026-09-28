@@ -298,3 +298,121 @@ A. Data extraction ----------- meaningful ---------- DA
    lot algorithm ------------ 1 role
    without data all part are just like field of study
 >>>>>>> daily-coding
+
+
+DAY - 10
+
+Artificial Intelligence
+
+Q. What is AI
+A. AI is just like field of study without Data 
+Data is a diamond/fual/king....
+
+why?
+Americal/Israel and iran ar ----------- 2026
+
+data is a row information collected from world around us
+
+Types od Data:
+1. Structured Data: organized in rows & column like excel,csv,database
+2. Unstructured Data: No fixed Format
+
+   text,image,audio,video,sensor
+--> why data is important ?
+1. better data ---- better AI
+2. large amount of data to help AI generation
+3. better accuracy
+4. decision making
+5. AI learns pattern from data so data is important 
+
+--> How Model works
+Data ---- pattern ---- learn ---- prediction ---- decision ?
+In online shopping, the company collects data such as customers’ previous purchases, product prices, and browsing history. By analyzing this data, it finds a pattern, 
+such as customers being more likely to buy shoes when their price is between ₹1,000 and ₹1,500. A machine learning model then learns this relationship from the historical data.
+When a new customer views a ₹1,200 pair of shoes, the model makes a prediction that the customer is likely to purchase it. Based on this prediction, the company can make a 
+decision, such as showing the customer a discount or recommending similar shoes.
+
+**** ML is a subset of AI that help computer learns from the data and improve automatically without being explicity programmed
+---> There are two types of programming
+1. Traditional Programming:- Apply rules force
+Suppose we define the rule:
+If marks are 50 or more → Pass, otherwise → Fail.
+marks = int(input("Enter marks: "))
+
+if marks >= 50:
+    print("Pass")
+else:
+    print("Fail")
+Rules + Data → Output
+
+For example
+Input: 75
+Rule: marks >= 50
+Output: Pass
+The programmer creates the rule, and the computer simply follows it. Unlike Machine Learning, the program does not learn the rule 
+from previous data.
+
+2. ML Programming
+
+---> ML se kaam kaun karayega
+1. Supervised Machine Learning :
+   Supervised Machine Learning is a type of machine learning in which the model is trained using labeled data, where the correct input (X) and 
+   corresponding output (Y) are already known. The model learns the relationship between input and output and then uses what it learned to 
+   predict the output for new, unseen inputs.
+   
+   Simple words: Pehle se examples diye hote hain ki kis input ka kya correct output hai, model un examples se relationship learn karta hai.
+   Example:
+   1. House Price Prediction 🏠
+      Model ko pehle house size aur uski actual price ka data diya jata hai. Model seekhta hai ki different sizes ke houses ki kya price hoti hai,
+       aur phir new house ki price predict karta hai.
+   2. Spam Email Detection 📧
+      Model ko pehle emails diye jate hain jinke saath label hota hai “Spam” ya “Not Spam”. Model seekhta hai ki spam emails mein kis type ke 
+      patterns hote hain, phir new email ko spam ya not spam predict karta hai.
+   3. Student Result Prediction 🎓
+      Model ko students ke study hours aur unke actual marks diye jate hain. Model seekhta hai ki study hours aur marks ke beech kya relationship
+       hai, phir naye student ke marks predict karta hai.
+   4. Disease Prediction 🩺
+      Model ko patients ke symptoms aur unki already-known diagnosis di jati hai. Model symptoms aur disease ke relationship ko learn karta hai,
+       phir naye patient ke symptoms ke basis par possible disease predict karta hai.
+
+2. Unsupervised Machine Learning : No Suoervisor
+   Unsupervised Machine Learning is a type of machine learning in which the model is given unlabeled data. There is no predefined output or 
+   answer. The model itself finds patterns, groups, or relationships within the data.
+   Simple words: Input diya jata hai, lekin correct output pehle se nahi diya hota. Model khud data ke andar pattern/group find karta hai.
+
+   self --------- Learning
+
+   Example:
+   Machine ----- Number of Fruits
+   Apple , orange , mango ------ machine ---- self learning 
+   color,structure ------- Apple --- 1 group
+                           orange --- 1 group(cluster)
+   1. Customer Segmentation 🛒
+      Shopping data diya jata hai, aur model customers ko unke purchasing behavior ke basis par different groups mein divide karta hai, 
+      jaise frequent buyers, occasional buyers, aur high-spending customers.
+   2. Similar Products Grouping 🛍️
+      Different products ka data diya jata hai, aur model automatically similar products ko ek group mein rakhta hai.
+
+3. Reinforcement Learning 
+   Reinforcement Learning is a type of machine learning where an agent learns by interacting with an environment. It takes actions and receives 
+   rewards or penalties based on those actions. Over time, it learns which actions lead to better rewards.
+   working with Hit & Trail ------- penalty/reward -------- feedback
+
+   Example:
+   2 ways --- distance cover ----- shortest ----- reward ------- penalty 
+
+---> There are lot of ptoblems in real life and industry
+   we can resolve in two ways
+   1. Regression
+   2. Classification 
+
+   Regression:-
+   relationship b/w independent/dependent variable 
+   numerical vs numerical (only numerical data)
+
+   Classification:-
+   a. Binary classification
+   True/False   Yes/No  0/1
+
+   b. Multi class classification
+   
