@@ -416,3 +416,25 @@ from previous data.
 
    b. Multi class classification
    
+
+   
+Day 11:-
+
+equation of line y=mx + c simmple linear regression
+m slope
+c intercept
+1 input
+1 output
+
+Deep Learning
+
+m =W weight
+c = b bias          y=mx +b
+
+MULTI Linear Regression
+1.House price prediction
+Area room age  location    price predict
+ x1   x2   x3   x4             y
+
+2.Loan Approval
+civil  exp 

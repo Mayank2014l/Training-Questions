@@ -19,7 +19,7 @@ print(df.corr())
 
 plt.plot(df["study-hour"], df["marks"], color="r", linestyle="--")
 
-# Numerical vs numerical -> scatter plot
+
 sns.scatterplot(data=df, x="study-hour", y="marks")
 
 plt.xlabel("Study Hours")
@@ -74,4 +74,25 @@ compare_df = pd.DataFrame({
 
 print(compare_df)
 
+plt.plot(compare_df["Actual X"],compare_df["Model Predicted Value"],color="g",marker="o",label="best line")
+plt.scatter(compare_df["Actual X"],compare_df["Actual y"],color="r",label="orginal data")
+plt.title("Linear Regression Model")
+plt.xlabel("Study Hours------>")
+plt.ylabel("Marks---->")
+plt.legend
+
 plt.show()
+
+MAE = (compare_df["Actual y"]-compare_df["Model Prediction Value"]).abs().mean()
+print("Mean Absolute Error", round(MAE,2))
+
+MSE = ((compare_df["Actual y"]-compare_df["Model Predicted Value"])**2).abs().mean()
+print("Mean Square Root",round(MSE,2))
+
+import math
+RMSE = math.sqrt(MSE)
+print("Root Mean Squared Error",round(RMSE,2))
+
+model_Score = model.score(X,y)
+print("After Training Model Score is ",model_Score)
+
