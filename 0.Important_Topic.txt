@@ -280,9 +280,6 @@ There are two types:
 
 ML--AI---------Excel Data
 real time problem solve as well as excel operation
-<<<<<<< HEAD
-performed so Pandas is very important 
-=======
 performed so Pandas is very important 
 
 **********
@@ -296,6 +293,9 @@ Q. ML/DL/AI/LLM/Generative AI/  which concept are important
 A. Data extraction ----------- meaningful ---------- DA 
    Data collection ----------- used right algorithm
    lot algorithm ------------ 1 role
+<<<<<<< Updated upstream
+   without data all part are just like field of study
+=======
    without data all part are just like field of study
 >>>>>>> daily-coding
 
@@ -440,3 +440,25 @@ Area room age  location    price predict
 civil  exp 
 
 GitHub contribution test - September 30
+
+most important:--
+1. Logistic Regression
+******
+Data Preprocessing
+
+Chatgpt:- fail  ----screen shot 
+plotting ---- data visualization ---- error ---- visualize
+
+Data:- There are many types of data
+is Diamond,fuel,king -----
+text,image,audio,video,sensor ---- more     (raw data)
+
+Data PreProcessing:- is a process which is used to convert raw data into meaningful data using different techniques.
+
+--> Why Data PreProcessing important
+    Data in the world in dirty 
+    * incomplete
+    * Duplicate 
+    * Inconsistent
+    * Noisy data 
+>>>>>>> Stashed changes
